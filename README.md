@@ -3,6 +3,8 @@
 🇬🇧 **English Version**
 
 #### Take a look on the chatroom here:  
+ https://eknoppd-png.github.io/kic_chatroom.github.io/ 
+
 [https://weberi.github.io/kic_chatroom.github.io](https://weberi.github.io/kic_chatroom.github.io)
 
 
