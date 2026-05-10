@@ -1,15 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Weatherbot Chatroom</title>
+  <!-- Chatroom Styles -->
   <link rel="stylesheet" href="https://cdn.statically.io/gh/weberi/chatroom/master/dist/Chatroom.css" />
   <link rel="stylesheet" href="https://cdn.statically.io/gh/weberi/chatroom/master/index.css" />
   <link rel="stylesheet" href="https://cdn.statically.io/gh/weberi/chatroom/master/themes/theme2.css" />
 </head>
-
 <body>
   <div class="chat-container"></div>
 
-  <script src="https://cdn.statically.io/gh/weberi/chatroom/master/dist/Chatroom.js"/></script>
+  <!-- Chatroom Script -->
+  <script src="https://cdn.statically.io/gh/weberi/chatroom/master/dist/Chatroom.js"></script>
   <script type="text/javascript">
-
+    // Hier die Public URL von deinem Codespaces-Port 5005 einfügen
     var chatroom = new window.Chatroom({
       host: "https://jubilant-fishstick-4q7pqpw4w5xv2j7pv-5005.app.github.dev",
       title: "Weatherbot",
@@ -18,7 +23,8 @@
       speechRecognition: "en-US",
       voiceLang: "en-US"
     });
-    chatroom.openChat();
 
+    chatroom.openChat();
   </script>
 </body>
+</html>
